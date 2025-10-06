@@ -16,7 +16,7 @@ export default function Home() {
       <Header />
 
       <main>
-        <HeroBanner title={cafeInfo.cafe.tagline} subtitle={cafeInfo.cafe.description} backgroundImage="/images/gallery/hero.jpg" ctaText="Lihat Menu" ctaLink="#menu" />
+        <HeroBanner />
 
         <Features features={cafeInfo.cafe.features} />
 
