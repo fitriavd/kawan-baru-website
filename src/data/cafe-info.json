@@ -1,0 +1,81 @@
+{
+  "cafe": {
+    "name": "Kawan Baru Coffee & Kitchen",
+    "tagline": "Kopi, Cerita, dan Ruang di Jantung Bogor",
+    "description": "Racikan biji pilihan, suasana tropis-industrial, dan spot foto estetik. Buka setiap hari 08.00–23.00.",
+    "address": {
+      "street": "Jl. Pajajaran Indah V No. R5 (RT 01/RW 11)",
+      "area": "Baranangsiang, Bogor Timur",
+      "city": "Kota Bogor, Jawa Barat 16143",
+      "phone": "0813-8173-978",
+      "whatsapp": "6281381739978",
+      "mapsUrl": "https://maps.app.goo.gl/2yBgBq2i7mNsy7eH9?g_st=iwb"
+    },
+    "hours": {
+      "weekday": "Minggu - Kamis: 08.00 - 24.00 WIB",
+      "weekend": "Jumat - Sabtu: 08.00 - 01.00 WIB"
+    },
+    "features": [
+      {
+        "title": "Desain Tropis-Industrial",
+        "description": "Konsep unik yang instagramable",
+        "icon": "🏢"
+      },
+      {
+        "title": "Area Indoor & Outdoor",
+        "description": "Ruang luas dengan kolam ikan dan taman",
+        "icon": "🌿"
+      },
+      {
+        "title": "Fasilitas WFC",
+        "description": "AC sejuk, Wi-Fi kencang, no smoking, nyaman untuk belajar & bekerja",
+        "icon": "💻"
+      },
+      {
+        "title": "Photobooth Estetik",
+        "description": "Cetak foto kenang-kenangan langsung",
+        "icon": "📸"
+      },
+      {
+        "title": "Suara Kawan",
+        "description": "Live music & entertainment berkualitas",
+        "icon": "🎵"
+      }
+    ],
+    "gallery": [
+      {
+        "id": "interior-main",
+        "title": "Interior Utama",
+        "description": "Suasana indoor dengan desain tropis-industrial, kursi wire gold dan meja minimalis",
+        "image": "/images/hero/interior-1.jpg",
+        "category": "interior"
+      },
+      {
+        "id": "indoor-wfc",
+        "title": "Area WFC Indoor",
+        "description": "Suasana ber-AC, no smoking, perfect untuk belajar, nugas, bekerja sambil ngopi",
+        "image": "/images/gallery/indoor_wfc.jpg",
+        "category": "interior"
+      },
+      {
+        "id": "outdoor-area",
+        "title": "Area Outdoor Semi-Terbuka",
+        "description": "Tempat duduk outdoor dengan atap tradisional dan suasana tropis yang asri",
+        "image": "/images/hero/outdoor-1.jpg",
+        "category": "outdoor"
+      },
+      {
+        "id": "kolam-ikan",
+        "title": "Kolam Ikan & Coffee Bar",
+        "description": "Kolam ikan dengan tanaman hijau di tengah café, menciptakan suasana menenangkan",
+        "image": "/images/hero/kolam-1.jpg",
+        "category": "outdoor"
+      }
+    ],
+    "tips": [
+      "Area ber-AC & no smoking - perfect untuk fokus belajar atau kerja produktif",
+      "Waktu terbaik WFC: pagi-sore, suasana tenang & Wi-Fi stabil",
+      "Reservasi meja khusus untuk meeting atau belajar kelompok via WhatsApp"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "description": "Premium coffee selection",
+      "items": [
+        { "id": "espresso", "name": "Espresso", "price": "20", "description": "Single shot espresso" },
+        { "id": "picolo", "name": "Picolo", "price": "28", "description": "Piccolo latte" },
+        { "id": "cappuccino", "name": "Cappuccino", "price": "30", "description": "Classic cappuccino" },
+        { "id": "latte", "name": "Latte", "price": "35", "description": "Smooth milk coffee" },
+        { "id": "mocha-latte", "name": "Mocha Latte", "price": "35", "description": "Coffee with chocolate" },
+        { "id": "americano", "name": "Americano", "price": "28", "description": "Espresso with hot water" },
+        { "id": "filter-coffee", "name": "Filter Coffee", "price": "35", "description": "Pour over coffee" },
+        { "id": "kopi-susu-gula-aren", "name": "Kopi Susu Gula Aren", "price": "30", "description": "Local style coffee" },
+        { "id": "kopi-susu-pisang", "name": "Kopi Susu Pisang", "price": "35", "description": "Coffee with banana flavor" },
+        { "id": "kopi-susu-kelapa", "name": "Kopi Susu Kelapa", "price": "35", "description": "Coconut coffee" },
+        { "id": "butterscotch-coffee", "name": "Butterscotch Coffee", "price": "35", "description": "Sweet butterscotch flavor" },
+        { "id": "tiramisu-latte", "name": "Tiramisu Latte", "price": "38", "description": "Italian dessert inspired" },
+        { "id": "kopi-susu-1liter", "name": "Kopi Susu 1 Liter", "price": "100", "description": "Large serving coffee" }
+      ]
+    },
+    {
+      "id": "non-coffee",
+      "name": "Non Coffee",
+      "description": "Non-coffee beverages",
+      "items": [
+        { "id": "matcha", "name": "Matcha", "price": "35", "description": "Japanese green tea" },
+        { "id": "chocolate", "name": "Chocolate", "price": "35", "description": "Rich hot chocolate" },
+        { "id": "baileys-latte", "name": "Baileys Latte", "price": "35", "description": "Creamy baileys flavor" },
+        { "id": "cheesecake", "name": "New York Cheesecake", "price": "35", "description": "Cheesecake flavored drink" },
+        { "id": "chai-latte", "name": "Chai Latte", "price": "35", "description": "Spiced tea latte" }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "Tea",
+      "description": "Tea selection",
+      "items": [
+        { "id": "lychee-tea", "name": "Lychee Tea", "price": "35", "description": "Refreshing lychee tea" },
+        { "id": "peach-tea", "name": "Peach Tea", "price": "35", "description": "Sweet peach tea" },
+        { "id": "artisan-tea", "name": "Artisan Tea", "price": "35", "description": "Premium tea blend" }
+      ]
+    },
+    {
+      "id": "refreshment",
+      "name": "Refreshment",
+      "description": "Fresh and energizing drinks",
+      "items": [
+        { "id": "surprise", "name": "Surprise", "price": "33", "description": "Mystery refreshing drink" },
+        { "id": "rico", "name": "Rico", "price": "38", "description": "Tropical refreshment" },
+        { "id": "moonshine", "name": "Moon Shine", "price": "38", "description": "Signature moonshine" },
+        { "id": "24-hours", "name": "24 Hours", "price": "33", "description": "Energy boost drink" },
+        { "id": "tonic-lady", "name": "Tonic Lady", "price": "35", "description": "Refreshing tonic" },
+        { "id": "ruby-thursday", "name": "Ruby Thursday", "price": "33", "description": "Ruby colored refresher" },
+        { "id": "nutman", "name": "Nut'man", "price": "35", "description": "Nutty refresher" },
+        { "id": "miss-ayu", "name": "Miss Ayu", "price": "35", "description": "Sweet refreshing drink" },
+        { "id": "summer-berry", "name": "Summer Berry", "price": "35", "description": "Berry flavored drink" },
+        { "id": "deep-purple", "name": "Deep Purple", "price": "35", "description": "Purple colored refresher" },
+        { "id": "marry-jane", "name": "Marry Jane", "price": "35", "description": "Signature refresher" },
+        { "id": "black-russian", "name": "Black Russian", "price": "35", "description": "Rich dark refresher" }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "description": "Light bites and appetizers",
+      "items": [
+        { "id": "french-fries", "name": "French Fries", "price": "28", "description": "Crispy potato fries" },
+        { "id": "cheese-fries", "name": "Cheese Fries with Ranch Dressing", "price": "35", "description": "Fries with cheese and ranch" },
+        { "id": "bbq-wings", "name": "BBQ Buffalo Wing", "price": "38", "description": "Spicy buffalo wings" },
+        { "id": "pisang-madu", "name": "Pisang Goreng Madu", "price": "30", "description": "Honey fried banana" },
+        { "id": "chicken-strips", "name": "Honey Mustard Chicken Strips", "price": "38", "description": "Crispy chicken strips" },
+        { "id": "spring-roll", "name": "Spring Roll", "price": "38", "description": "Fresh spring rolls" },
+        { "id": "onion-ring", "name": "O-Ring", "price": "35", "description": "Crispy onion rings" },
+        { "id": "nachos", "name": "Nachos Con Carne", "price": "38", "description": "Nachos with meat" },
+        { "id": "tahu-walik", "name": "Tahu Walik", "price": "35", "description": "Indonesian tofu snack" },
+        { "id": "bruchetta", "name": "Bruchetta", "price": "38", "description": "Italian bread appetizer" },
+        { "id": "mix-platter", "name": "Mix Platter", "price": "65", "description": "Assorted snack platter" },
+        { "id": "tempe-mendoan", "name": "Tempe Mendoan", "price": "30", "description": "Indonesian tempeh fritters" }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": "Mains",
+      "description": "Main course dishes",
+      "items": [
+        { "id": "grill-chicken", "name": "Grill Chicken Carbonara", "price": "57", "description": "Grilled chicken with carbonara" },
+        { "id": "mac-cheese", "name": "Mac & Cheese", "price": "55", "description": "Creamy macaroni and cheese" },
+        { "id": "spaghetti-bolognese", "name": "Spaghetti Bolognese", "price": "55", "description": "Classic bolognese pasta" },
+        { "id": "aglio-olio", "name": "Aglio Olio w/ Prawn", "price": "53", "description": "Garlic oil pasta with prawns" },
+        { "id": "chicken-steak", "name": "Chicken Steak", "price": "70", "description": "Grilled chicken steak" }
+      ]
+    },
+    {
+      "id": "nusantara",
+      "name": "Nusantara",
+      "description": "Indonesian cuisine",
+      "items": [
+        { "id": "nasi-bakar-ayam", "name": "Nasi Bakar Ayam", "price": "43", "description": "Indonesian grilled rice with chicken" },
+        { "id": "nasi-bakar-tuna", "name": "Nasi Bakar Tuna", "price": "45", "description": "Grilled rice with tuna" },
+        { "id": "nasi-goreng-kb", "name": "Nasi Goreng Kawan Baru", "price": "45", "description": "Signature fried rice" },
+        { "id": "ayam-bakar", "name": "Ayam Bakar Taliwang", "price": "50", "description": "Spicy grilled chicken" },
+        { "id": "mie-goreng", "name": "Mie Goreng Djawa", "price": "43", "description": "Javanese fried noodles" },
+        { "id": "siomay", "name": "Siomay", "price": "35", "description": "Indonesian steamed dumpling" },
+        { "id": "nasi-campur", "name": "Nasi Campur", "price": "55", "description": "Mixed rice with various dishes" },
+        { "id": "nasi-timbel", "name": "Nasi Timbel", "price": "50", "description": "Sundanese wrapped rice" }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "Dessert",
+      "description": "Sweet treats and desserts",
+      "items": [
+        { "id": "pannacotta-doger", "name": "Pannacotta Doger", "price": "35", "description": "Indonesian style pannacotta" },
+        { "id": "banana-split", "name": "Banana Split", "price": "35", "description": "Classic banana split dessert" },
+        { "id": "colenak", "name": "Colenak", "price": "30", "description": "Grilled fermented cassava" },
+        { "id": "milky-brownies", "name": "Milky Brownies Ice Cream", "price": "35", "description": "Brownies with ice cream" }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "description": "Morning specials",
+      "items": [
+        { "id": "omelette", "name": "Omelette", "price": "40", "description": "Fluffy egg omelette" },
+        { "id": "roti-bakar", "name": "Roti Bakar Kacang Coklat", "price": "35", "description": "Grilled bread with chocolate peanut" }
+      ]
+    },
+    {
+      "id": "kids-meal",
+      "name": "Kids Meal",
+      "description": "Kid-friendly options",
+      "items": [
+        { "id": "chicken-katsu", "name": "Chicken Katsu", "price": "38", "description": "Crispy chicken katsu for kids" },
+        { "id": "spaghetti-meatball", "name": "Spaghetti Meatball", "price": "38", "description": "Kid-friendly spaghetti with meatballs" },
+        { "id": "kids-fried-rice", "name": "Kids Fried Rice", "price": "38", "description": "Simple fried rice for children" }
+      ]
+    }
+  ],
+  "posters": [
+    {
+      "id": "poster-1",
+      "title": "Coffee & Beverages Menu",
+      "image": "/images/menu/poster-1.jpg",
+      "description": "Complete menu for coffee, tea, and refreshments"
+    },
+    {
+      "id": "poster-2",
+      "title": "Food Menu",
+      "image": "/images/menu/poster-2.jpg",
+      "description": "Main dishes, snacks, and Nusantara cuisine"
+    }
+  ]
+}
