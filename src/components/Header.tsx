@@ -86,7 +86,7 @@ export default function Header() {
           {/* WhatsApp Button */}
           <div className="hidden md:block">
             <a
-              href="https://wa.me/6281381739978"
+              href="https://wa.me/6282113020035"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105"
@@ -136,7 +136,7 @@ export default function Header() {
               )}
               <div className="pt-2">
                 <a
-                  href="https://wa.me/6281381739978"
+                  href="https://wa.me/6282113020035"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white px-3 py-2 rounded-md text-base font-medium flex items-center gap-2 w-full justify-center hover:opacity-80 transition-opacity"

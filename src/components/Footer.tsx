@@ -50,7 +50,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-white mb-3">Hubungi Kami</h4>
 
             <div className="space-y-3">
-              <p className="text-white/90 text-sm">📞 0813-8173-9978</p>
+              <p className="text-white/90 text-sm">📞 0821-1302-0035</p>
 
               {/* Social Links */}
               <div>
