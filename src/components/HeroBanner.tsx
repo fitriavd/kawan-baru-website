@@ -14,7 +14,7 @@ interface HeroBannerProps {
 
 const heroImages = ["/images/hero/interior-1.jpg", "/images/hero/outdoor-1.jpg", "/images/hero/kolam-1.jpg"];
 
-export default function HeroBanner({ title, subtitle, backgroundImage, ctaText = "Lihat Menu", ctaLink = "#menu" }: HeroBannerProps) {
+export default function HeroBanner() {
   const [currentImage, setCurrentImage] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
 

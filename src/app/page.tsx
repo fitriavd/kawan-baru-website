@@ -2,7 +2,6 @@
 
 import HeroBanner from "@/components/HeroBanner";
 import Header from "@/components/Header";
-import MenuGrid from "@/components/MenuGrid";
 import MenuPosters from "@/components/MenuPosters";
 import Features from "@/components/Features";
 import Gallery from "@/components/Gallery";
@@ -10,12 +9,8 @@ import Footer from "@/components/Footer";
 
 // Import data
 import cafeInfo from "@/data/cafe-info.json";
-import menuData from "@/data/menu.json";
 
 export default function Home() {
-  // Get featured menu items (first few from each category)
-  const featuredItems = menuData.categories.flatMap((category) => category.items.slice(0, 2));
-
   return (
     <div className="min-h-screen">
       <Header />

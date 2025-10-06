@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="text-white" style={{ backgroundColor: "#153a4f" }}>
@@ -10,7 +12,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-full overflow-hidden shadow-lg">
-                <img src="/images/logo.jpg" alt="Kawan Baru Coffee & Kitchen Logo" className="w-full h-full object-cover" />
+                <Image src="/images/logo.jpg" alt="Kawan Baru Coffee & Kitchen Logo" width={40} height={40} className="object-cover" />
               </div>
               <h3 className="text-xl font-serif font-bold text-white">Kawan Baru</h3>
             </div>

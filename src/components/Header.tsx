@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Header() {
@@ -23,9 +24,9 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleNavClick = (item: any) => {
+  const handleNavClick = (item: { type: string; href: string }) => {
     if (item.type === "scroll") {
-      const element = document.querySelector(item.href);
+      const element = document.querySelector(item.href) as HTMLElement;
       if (element) {
         const headerOffset = 80;
         const elementPosition = element.offsetTop;
@@ -52,7 +53,7 @@ export default function Header() {
             <Link href="/" className="flex items-center group">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full overflow-hidden group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                  <img src="/images/logo.jpg" alt="Kawan Baru Coffee & Kitchen Logo" className="w-full h-full object-cover" />
+                  <Image src="/images/logo.jpg" alt="Kawan Baru Coffee & Kitchen Logo" width={48} height={48} className="object-cover" />
                 </div>
                 <span className="text-xl font-serif font-bold transition-colors duration-300 text-white">Kawan Baru</span>
               </div>
